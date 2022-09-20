@@ -1,0 +1,14 @@
+.contenedor{
+  background:red;
+  display: flex;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  animation-duration: 3s;
+}
+body {
+  background: -webkit-radial-gradient(center, ellipse cover, #3f25cf 0%,#453798 100%);
+}
+svg {
+  transition: 20px;
+}

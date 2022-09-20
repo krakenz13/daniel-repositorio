@@ -1,0 +1,28 @@
+.grid-container {
+  background-color: rgb(234, 26, 26);
+  text-align: center;
+  grid-template-columns: repeat(3, 3fr);
+  border-radius: 30px;
+}
+.grid-container2 {
+  display: flex;
+  background-color: blue;
+  grid-template-columns: repeat(3, 3fr);
+  text-align: center;
+  border-radius: 30px;
+}
+.grid-container3 {
+  display: flex;
+  background-color: yellow;
+  grid-template-columns: repeat(3, 3fr);
+  text-align: center;
+  border-radius: 30px;
+}
+section {
+  display: flex;
+  padding: 50px;
+  column-gap: 30px;
+}
+.img1 .img2 .img3{
+    width: 3px;
+}

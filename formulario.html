@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="estilofor.css" rel="stylesheet" />
+    <title>registro</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form>
+            <header>
+
+                <div class="div1">
+                    <h3 class="titulo">registro</h3>
+
+                </div>
+                </a>
+
+            </header>
+
+            <fieldset>
+                <div id="div1">
+                    <label for="nombres">Nombres: </label>
+                    <input type="text" name="nombres" placeholder="Ingrese sus nombres" />
+                </div>
+
+                <div id="div2">
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" />
+                </div>
+
+                <div id="div3">
+                    <label for="correo">Correo: </label>
+                    <input type="email" name="correo" placeholder="Ingrese su correo" required />
+                </div>
+
+                <div id="div7">
+                    <label for="user-password"" class="label">contraseña</label>
+                    <input type="password" id="user-password" class="input" placeholder="a">
+                    
+                </div>
+                <div id="div4">
+                    <label for="telefono">Telefono: </label>
+                    <input type="number" name="telefono" placeholder="Ingrese su telefono" />
+                </div>
+
+                <div id="div5">
+                    <label>Genero: </label>
+
+                    <input type="radio" id="femenino" name="genero" value="femenino" />
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" />
+                    <label for="masculino">Masculino</label>
+                </div>
+
+                <div id="div6">
+                    <label for="fecha">Fecha Nacimiento: </label>
+                    <input type="date" name="fecha" />
+                </div>
+
+                <div id="div7">
+                    <label for="ciudad">Ciudad:</label>
+                    <select id="ciudad" name="ciudad">
+                        <option value="Bogota">Bogota</option>
+                        <option value="tunja">tunja</option>
+                        <option value="yopal">yopal</option>
+                    </select>
+                </div>
+
+                <div id="div8">
+
+
+
+
+                    <div id="div9">
+                        <label for="comentario">tienes dudas?</label><br /><br />
+                        <textarea id="comentario" name="comentario" rows="2" cols="70">
+Escribe aqui tu comentario
+    </textarea>
+                    </div>
+
+                    <div id="div10">
+                        <input type="checkbox" id="acepto" name="acepto" value="acepto" />
+                        <label for="longoni">Acepto terminos y condiciones</label>
+                    </div>
+
+                    <div id="div11">
+                        <input type="submit" value="Enviar" />
+                    </div>
+            </fieldset>
+
+            <footer>
+
+
+                <nav>
+                    <a href="index.html" class="nav-link">volver</a>
+
+                </nav>
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>
